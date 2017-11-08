@@ -5,15 +5,15 @@ import json
 
 
 myname = str(raw_input("enter your name: "))
-
-mydict = dict( 
+mylastname = str(raw_input("enter your last name: "))
+mydict = dict(
               FirstName = "foo",
               LastName = "bar"
               )
 
 nextdict = {
             "FirstName": myname,
-            "LastName" : "bar"
+            "LastName" : mylastname
            }
 
 print "mydict: ", type(mydict)
